@@ -1,0 +1,24 @@
+{
+  "name": "telemonitor-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for monitoring web pages, and send to group/channel.",
+  "main": "telemonitor-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxiange/telemonitor-bot.git"
+  },
+  "author": "Xiang Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lxiange/telemonitor-bot/issues"
+  },
+  "homepage": "https://github.com/lxiange/telemonitor-bot#readme",
+  "dependencies": {
+    "@worker-tools/parsed-html-rewriter": "^0.1.3",
+    "jsdom": "^16.5.1",
+    "node-fetch": "^2.6.1"
+  }
+}
