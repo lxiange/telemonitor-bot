@@ -172,3 +172,9 @@ if (!IS_CF_WORKER) {
     server.listen(+process.env.PORT || 8080);
 }
 
+module.exports = async (req, res) => {
+    init();
+    await dispatchRequests(req.url);
+    res.writeHead(200);
+    res.end('Hello, World!');
+}
