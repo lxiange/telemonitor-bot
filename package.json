@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/lxiange/telemonitor-bot#readme",
   "dependencies": {
-    "@worker-tools/parsed-html-rewriter": "^0.1.3",
     "jsdom": "^16.5.1",
     "node-fetch": "^2.6.1"
   }

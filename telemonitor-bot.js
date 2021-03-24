@@ -169,5 +169,5 @@ if (!IS_CF_WORKER) {
         res.writeHead(200);
         res.end('Hello, World!');
     })
-    server.listen(8080);
+    server.listen(+process.env.PORT || 8080);
 }
